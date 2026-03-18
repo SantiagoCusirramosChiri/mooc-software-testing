@@ -9,7 +9,9 @@ public class NumFinder {
 
             if(n < smallest)
                 smallest = n;
-            else if (n > largest)
+
+//                Aqui se actualiza nomas, ya no es un else if, solo pasa a ser un if
+            if (n > largest)
                 largest = n;
 
         }
